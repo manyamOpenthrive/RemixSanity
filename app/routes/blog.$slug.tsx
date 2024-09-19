@@ -1,9 +1,9 @@
-import { LoaderFunction } from "@remix-run/node";
+
 import { useLoaderData } from "@remix-run/react";
 import { PortableText } from "@portabletext/react";
 import { client, urlFor } from "../lib/sanity";
 import type { fullblog } from "~/lib/interface";
-import { json } from "@remix-run/node";
+import { json, LoaderFunction } from "@vercel/remix";
 import { SLUG_QUERY } from "../lib/sanity";
 
 export const loader: LoaderFunction = async ({ params }) => {

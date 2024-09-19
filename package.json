@@ -19,6 +19,7 @@
     "@sanity/image-url": "^1.0.2",
     "@sanity/overlays": "^2.3.59",
     "@sanity/react-loader": "^1.10.7",
+    "@vercel/remix": "^2.12.0",
     "groq": "^3.57.4",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
